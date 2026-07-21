@@ -52,3 +52,6 @@ env/
 # Local-only developer notes (never commit)
 TODO.local.md
 *.local.md
+
+# Local Claude Code settings (never commit)
+.claude/settings.local.json
