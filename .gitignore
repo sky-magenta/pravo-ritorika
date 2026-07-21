@@ -48,3 +48,7 @@ env/
 /scratch/
 /tmp/
 *.log
+
+# Local-only developer notes (never commit)
+TODO.local.md
+*.local.md
