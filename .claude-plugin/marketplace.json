@@ -5,7 +5,7 @@
     "url": "https://t.me/forgednotwritten"
   },
   "metadata": {
-    "description": "Маркетплейс Damascus Ink: открытые скиллы для юристов от Софьи Смирновой (право и код, M&A). Здесь — pravo-ritorika (риторика правовой позиции), парный к pravo-logika.",
+    "description": "Маркетплейс Damascus Ink: открытые скиллы для юристов от Софьи Смирновой (право и код, M&A). Семейство: pravo-logika (валидность), pravo-ritorika (убедительность — этот репозиторий), на подходе — pravo-grammatika (язык).",
     "version": "0.2.0"
   },
   "plugins": [
