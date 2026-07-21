@@ -19,8 +19,9 @@ EXPECTS = {"defect", "clean"}
 DIFFICULTIES = {"easy", "medium", "hard"}
 REQUIRED = {"id", "mode", "category", "difficulty", "input", "expect"}
 # Разделы каталога дефектов подачи, которые набор обязан покрывать.
-#   S — статус, D — диспозиция, B — баланс средств, V — возражения, A — адресация, N — clean.
-REQUIRED_SECTIONS = {"S", "D", "B", "V", "A", "N"}
+#   S — статус, D — диспозиция, B — баланс средств, V — возражения, A — адресация,
+#   E — приёмы оппонента, M — M&A/корпоративные, Y — многодефектные, N — clean.
+REQUIRED_SECTIONS = {"S", "D", "B", "V", "A", "E", "M", "Y", "N"}
 
 
 def load_cases(path=CASES_PATH):
@@ -115,7 +116,7 @@ def test_coverage_complete():
     assert REQUIRED_SECTIONS <= set(by_section), "не все разделы покрыты"
     assert by_expect.get("clean", 0) >= 10, "нужно ≥10 clean-примеров"
     assert set(by_mode) == MODES, "покрыты не все четыре режима"
-    assert len(cases) >= 40, "ожидается не менее 40 примеров"
+    assert len(cases) >= 100, "ожидается не менее 100 примеров"
 
 
 if __name__ == "__main__":
