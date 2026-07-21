@@ -69,7 +69,7 @@ pravo-ritorika/
 | Cursor        | `~/.cursor/skills/pravo-ritorika/` |
 | OpenAI Codex  | `~/.codex/skills/pravo-ritorika/`  |
 
-**Как плагин (Claude Code)** — репозиторий является маркетплейсом Claude Code (заработает после публикации, см. [«Статус»](#статус)):
+**Как плагин (Claude Code)** — репозиторий является маркетплейсом Claude Code:
 
 ```
 /plugin marketplace add sky-magenta/pravo-ritorika
@@ -88,7 +88,7 @@ pravo-ritorika/
 
 ## Статус
 
-**Разработка пока полностью локальная.** Удалённый репозиторий не создан, ничего не опубликовано — бейдж CI и команды установки плагина оживут после публикации. Что осталось решить и доделать до неё — в [`docs/TODO.md`](docs/TODO.md).
+Лендинг проекта: [sky-magenta.github.io/pravo-ritorika](https://sky-magenta.github.io/pravo-ritorika/). План доработок — в [`docs/TODO.md`](docs/TODO.md).
 
 ## Об авторе и проекте
 
