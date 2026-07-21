@@ -1,0 +1,24 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Eval run artifacts (cases.jsonl is committed; results/temp are not)
+/evals/results.json
+/evals/_*.txt
+
+# Local scratch
+/scratch/
+/tmp/
+*.log
