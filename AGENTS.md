@@ -56,9 +56,11 @@
 - **Новый дефект в каталоге** (`references/rhetoric-errors.md`): по шаблону файла — имя дефекта →
   как выглядит → почему ослабляет (со ссылкой на нарушенное правило) → как исправить.
 - **Имя и версия.** Имя скилла — `pravo-ritorika` (поле `name` в `SKILL.md`). При содержательных
-  изменениях бампайте `version` синхронно в `SKILL.md`, трёх манифестах (`.claude-plugin`,
-  `.codex-plugin`, `.cursor-plugin`) и `.claude-plugin/marketplace.json`.
-- **Структура плагина.** Внутри `.claude-plugin/` — только `plugin.json` и `marketplace.json`.
+  изменениях бампайте `version` синхронно в `SKILL.md` и трёх манифестах (`.claude-plugin`,
+  `.codex-plugin`, `.cursor-plugin`).
+- **Структура плагина.** Внутри `.claude-plugin/` — только `plugin.json`. Маркетплейс семейства
+  вынесен в отдельный репозиторий [`sky-magenta/damascus-ink-plugins`](https://github.com/sky-magenta/damascus-ink-plugins)
+  (перечисляет все три скилла через github-источники) — здесь `marketplace.json` нет.
   `commands/`, `references/`, `SKILL.md` — в корне репозитория, не внутри `.claude-plugin/`.
 - **Граница с `pravo-logika`.** Если правка размывает границу «валидность / убедительность» —
   это ошибка. Всё про «следует ли вывод» — чужая юрисдикция, флаг `[→ pravo-logika]`.

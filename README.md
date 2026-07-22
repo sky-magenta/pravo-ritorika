@@ -68,24 +68,24 @@ pravo-ritorika/
 | Cursor        | `~/.cursor/skills/pravo-ritorika/` |
 | OpenAI Codex  | `~/.codex/skills/pravo-ritorika/`  |
 
-**Как плагин (Claude Code)** — репозиторий является маркетплейсом Claude Code:
+**Как плагин (Claude Code)** — через общий маркетплейс семейства. Добавьте его один раз, дальше ставьте нужные скиллы:
 
 ```
-/plugin marketplace add sky-magenta/pravo-ritorika
+/plugin marketplace add sky-magenta/damascus-ink-plugins
 /plugin install pravo-ritorika@damascus-ink
 ```
 
-Проверка — `/plugin`. Плагин подключает и скилл (`SKILL.md` + `references/`), и слэш-команды `/pravo-ritorika:stress-test`, `/pravo-ritorika:status`, `/pravo-ritorika:structure`, `/pravo-ritorika:adapt`.
+Проверка — `/plugin`. Плагин подключает и скилл (`SKILL.md` + `references/`), и слэш-команды `/pravo-ritorika:stress-test`, `/pravo-ritorika:status`, `/pravo-ritorika:structure`, `/pravo-ritorika:adapt`. Из того же маркетплейса ставятся и соседи — `pravo-logika`, `pravo-grammatika`.
 
-**В Claude Cowork (мышкой, без командной строки)** — Cowork — рабочее пространство в приложении Claude (macOS и Windows; нужен платный план: Pro, Max, Team или Enterprise). Скилл ставится как плагин из этого же репозитория:
+**В Claude Cowork (мышкой, без командной строки)** — Cowork — рабочее пространство в приложении Claude (macOS и Windows; нужен платный план: Pro, Max, Team или Enterprise). Скилл ставится плагином из общего маркетплейса семейства:
 
 1. Откройте вкладку **Cowork**, затем в левой панели — меню **Customize** («Настроить»).
 2. Перейдите на вкладку **Plugins** → в разделе **Personal plugins** нажмите **«+»** → **Add marketplace**.
-3. Выберите **Add from a repository** и укажите репозиторий `sky-magenta/pravo-ritorika`. Маркетплейс синхронизируется.
-4. Найдите плагин **pravo-ritorika** и нажмите **Install**.
+3. Выберите **Add from a repository** и укажите `sky-magenta/damascus-ink-plugins`. Маркетплейс синхронизируется.
+4. Найдите плагин **pravo-ritorika** и нажмите **Install** (рядом в списке — `pravo-logika` и `pravo-grammatika`, если нужны).
 5. Готово. Наберите **«/»** или нажмите **«+»** в чате Cowork — появятся слэш-команды `/pravo-ritorika:…`; либо просто попросите словами: «разбей мою позицию», «проверь структуру меморандума».
 
-Маркетплейс `damascus-ink` общий для семейства: в нём же — `pravo-logika`. Если вы уже добавляли маркетплейс ради логики, второй раз добавлять не нужно — просто установите `pravo-ritorika` из того же списка. MCP-серверов у плагина нет — только текстовые файлы скилла и команды. Официальная инструкция Anthropic — [«Use plugins in Claude»](https://support.claude.com/en/articles/13837440-use-plugins-in-claude).
+Один маркетплейс `damascus-ink-plugins` содержит все три скилла семейства (`pravo-grammatika`, `pravo-logika`, `pravo-ritorika`) — добавляется один раз, второй раз не нужно. MCP-серверов у плагинов нет — только текстовые файлы скиллов и команды. Официальная инструкция Anthropic — [«Use plugins in Claude»](https://support.claude.com/en/articles/13837440-use-plugins-in-claude).
 
 ## Вызов
 
@@ -113,7 +113,7 @@ pravo-ritorika/
 
 ## Об авторе и проекте
 
-**Автор — [Софья Смирнова](https://damascus-ink.ru)** ([Telegram: «Дамасские чернила | AI и M&A»](https://t.me/forgednotwritten)). Скилл сделан для собственной практики: разбирать убедительность юридической позиции тем же аппаратом, каким классическая риторика разбирает судебную речь, — в паре с логическим `pravo-logika`.
+**Автор — [Софья Смирнова](https://damascus-ink.ru)** ([Telegram: «Дамасские чернила | AI и M&A»](https://t.me/forgednotwritten)), советник корпоративной практики и M&A, руководитель практики AI & Legal Tech в [O2 Consulting](https://o2consult.com); основатель платформы [Moire AI](https://moire-ai.tech). Скилл сделан для собственной практики: разбирать убедительность юридической позиции тем же аппаратом, каким классическая риторика разбирает судебную речь, — в паре с логическим [`pravo-logika`](https://github.com/sky-magenta/pravo-logika) и грамматическим [`pravo-grammatika`](https://github.com/sky-magenta/pravo-grammatika).
 
 **[Damascus Ink](https://damascus-ink.ru) («Дамасские чернила»)** — сайт и телеграм-канал об ИИ в юридической практике и M&A: исследования, инструменты, выступления.
 
