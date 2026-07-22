@@ -77,6 +77,16 @@ pravo-ritorika/
 
 Проверка — `/plugin`. Плагин подключает и скилл (`SKILL.md` + `references/`), и слэш-команды `/pravo-ritorika:stress-test`, `/pravo-ritorika:status`, `/pravo-ritorika:structure`, `/pravo-ritorika:adapt`.
 
+**В Claude Cowork (мышкой, без командной строки)** — Cowork — рабочее пространство в приложении Claude (macOS и Windows; нужен платный план: Pro, Max, Team или Enterprise). Скилл ставится как плагин из этого же репозитория:
+
+1. Откройте вкладку **Cowork**, затем в левой панели — меню **Customize** («Настроить»).
+2. Перейдите на вкладку **Plugins** → в разделе **Personal plugins** нажмите **«+»** → **Add marketplace**.
+3. Выберите **Add from a repository** и укажите репозиторий `sky-magenta/pravo-ritorika`. Маркетплейс синхронизируется.
+4. Найдите плагин **pravo-ritorika** и нажмите **Install**.
+5. Готово. Наберите **«/»** или нажмите **«+»** в чате Cowork — появятся слэш-команды `/pravo-ritorika:…`; либо просто попросите словами: «разбей мою позицию», «проверь структуру меморандума».
+
+Маркетплейс `damascus-ink` общий для семейства: в нём же — `pravo-logika`. Если вы уже добавляли маркетплейс ради логики, второй раз добавлять не нужно — просто установите `pravo-ritorika` из того же списка. MCP-серверов у плагина нет — только текстовые файлы скилла и команды. Официальная инструкция Anthropic — [«Use plugins in Claude»](https://support.claude.com/en/articles/13837440-use-plugins-in-claude).
+
 ## Вызов
 
 - Слэш-команды: `/pravo-ritorika:stress-test`, `/pravo-ritorika:status`, `/pravo-ritorika:structure`, `/pravo-ritorika:adapt` (готовые шаблоны — в [`docs/prompts.md`](docs/prompts.md)).
