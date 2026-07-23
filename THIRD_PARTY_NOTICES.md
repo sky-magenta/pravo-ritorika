@@ -65,8 +65,8 @@
 
 **Новоевропейская риторика:**
 
-- **Richard Whately, «Elements of Rhetoric»** (1828; автор ум. 1863) — учение о бремени и презумпции
-  (`status.md`).
+- **Richard Whately, «Elements of Rhetoric»** (1828; автор ум. 1863) — идея презумпции и бремени
+  аргументации (точечно отражена в `refutation.md`, работа с бременем при опровержении).
 - **Jeremy Bentham, «The Book of Fallacies»** (1824; ум. 1832) — таксономия риторических уловок
   (`rhetoric-errors.md`).
 - **George Campbell, «The Philosophy of Rhetoric»** (1776; ум. 1796) — психология аудитории и логика
