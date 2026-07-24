@@ -1,7 +1,7 @@
 {
   "name": "pravo-ritorika",
   "description": "Classical rhetoric for WRITTEN legal positions (memoranda, procedural documents, demand letters, opinions) on Russian legal practice: status theory (choosing the line of dispute — fact, definition, evaluation, procedure), dispositio (argument order, text structure and written-text navigation), the logos/ethos/pathos balance, audience models (court, notary, state body, negotiation counterparty, client), and steelman stress-testing. Modes: stress-test, status, structure, adaptation. The paired skill to pravo-logika: logic checks whether the conclusion follows, rhetoric checks whether the addressee will accept it. Validity is out of scope — logical defects are flagged to pravo-logika; only honest argumentation is strengthened, never manipulative technique. Statutes and case law are never asserted from memory but flagged for human verification. Russian-language references.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": {
     "name": "Sofya Smirnova",
     "url": "https://t.me/forgednotwritten"
